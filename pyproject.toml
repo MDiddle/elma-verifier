@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 dependencies = [
-  'selenium <= 4.6',
+  'selenium >= 4.6',
 ]
-name = "elma-verifier"
+name = "elma_verifier"
 version = "0.0.1"
 authors = [
   { name="Mathias Mjømen", email="mathiassmjomen@gmail.com" },
