@@ -1,6 +1,6 @@
 # ELMA-verifier
 
-This Python module allows users to verify whether an organization number is valid and is set up to receive invoices through the EHF format by querying `https://anskaffelser.no/verktoy/veiledere/mottakere-i-elma`.
+This Python module allows users to verify whether an organization number is valid and is set up to receive invoices through the EHF format.
 
 ## Installation
 To install the `elma-verifier` package, simply use `pip`:
@@ -13,9 +13,9 @@ pip install elma-verifier
 Here's how you can use the elma-verifier:
 
 ```python
-from orgnumber import verify_org_number
-result = verify_org_number("YOUR_ORG_NUMBER_HERE")
-print(result)  # Returns True if organization number is valid, otherwise False
+from elma_verifier import verifier
+result = verify.verify_org_number("YOUR_ORG_NUMBER_HERE")
+print(result)  # Returns True if organization number is registered to receive EHF invoices, otherwise False
 ```
 
 ## Issues & Contributions
