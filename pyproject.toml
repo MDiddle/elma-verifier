@@ -7,7 +7,7 @@ dependencies = [
   'selenium >= 4.6',
 ]
 name = "elma_verifier"
-version = "0.0.4"
+version = "0.0.6"
 authors = [
   { name="Mathias Mjømen", email="mathiassmjomen@gmail.com" },
 ]

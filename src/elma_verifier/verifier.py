@@ -67,7 +67,7 @@ def validate_org_number(org_number):
     digits = [int(x) for x in org_number]
     
     # Define the weights for the modulus 11 algorithm
-    weights = [2, 3, 4, 5, 6, 7, 2, 3]
+    weights = [3,2,7,6,5,4,3,2]
     
     # Compute the sum of products of the digits and the weights
     product_sum = sum(digit * weight for digit, weight in zip(digits[:-1], weights))
